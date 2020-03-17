@@ -1,0 +1,21 @@
+{
+  "name": "file-upload-example",
+  "author": "Rafiou Sitou <rafiousitou90@gmail.com>",
+  "scripts": {
+    "dev-server": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GNU",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2"
+  }
+}
